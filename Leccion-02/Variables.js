@@ -77,3 +77,26 @@ console.log(Texto);
 // sera un numero, pero si se colocan de ultimo, el resultado sera un string
 var Texto2 = 10 + 10 + "10";
 console.log(Texto2);
+
+// Como ultimo detalle, en javascript se tiene la practica de declarar con let y const las variables
+// let es para declarar variables que pueden cambiar su valor
+let Let = "xd";
+console.log(Let);
+Let = 10;
+console.log(Let);
+// const es para declarar variables que no pueden cambiar su valor
+const Const = "xd";
+console.log(Const);
+// Const = 10; // Esto dara error
+
+// En Javascript existe un error al declarar variables comenzando con numeros, al igual que cuando se utiliza una palabra reservada
+// var 10 = 10; // Esto dara error
+// var var = 10; // Esto dara error
+
+// las formas correctas de colocar nombre de variables es de la siguiente manera
+var _10 = 10;
+var _var = 10;
+var $var = 10;
+var var_ = 10;
+var var$ = 10;
+// Comienza usando $, _ o letras, despues puedes usar numeros
